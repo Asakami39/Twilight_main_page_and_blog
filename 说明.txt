@@ -1,0 +1,31 @@
+项目启动步骤
+1. 克隆项目
+首先，克隆 Twilight 项目到本地：
+
+git clone https://github.com/Spr-Aachen/Twilight.git
+cd Twilight
+
+2. 安装依赖
+使用 pnpm 安装项目依赖：
+
+pnpm install
+
+3. 配置博客
+在启动项目之前，您需要根据自己的需求进行配置：
+
+编辑 src/config.ts 文件来自定义博客设置
+更新站点信息、主题颜色、横幅图片和社交链接
+配置翻译设置和特殊页面功能
+4. 启动开发服务器
+运行以下命令启动开发服务器：
+
+pnpm dev
+
+启动成功后，您可以在浏览器中访问 http://localhost:4321 查看您的博客。
+
+5. 打包网站
+运行以下命令将网站打包成静态文件，生成到 dist 目录中：
+
+pnpm build
+
+生成的 dist 目录可以部署到您自己的服务器上。
