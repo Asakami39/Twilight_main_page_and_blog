@@ -1,3 +1,5 @@
+暂存所有更改的文件：git add .
+上传库：git push -u origin main --force
 项目启动步骤
 1. 克隆项目
 首先，克隆 Twilight 项目到本地：
