@@ -48,7 +48,7 @@ export default defineConfig({
     site: siteConfig.siteURL,
     base: "/",
     trailingSlash: "always",
-    adapter: adapter,
+    adapter: cloudflarePages(),
     integrations: [
         decapCmsOauth({
             decapCMSVersion: "3.9.0",
