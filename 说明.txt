@@ -2,6 +2,8 @@
 提交文件：git commit -m "你的提交信息写在这里"
 上传库：git push -u origin main
 （后面加--force，表示覆盖远程的历史记录）
+拉取并合并远程更改：git pull origin main
+（注意：如果执行后提示 fatal: refusing to merge unrelated histories（拒绝合并无关历史），这是因为本地和远程是独立初始化的。请改用：git pull origin main --allow-unrelated-histories）
 git push origin main
 项目启动步骤
 1. 克隆项目
