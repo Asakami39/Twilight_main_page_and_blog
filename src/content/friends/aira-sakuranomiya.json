@@ -2,5 +2,9 @@
   "title": "Aira Sakuranomiya的个人网站~",
   "imgurl": "https://avatars.githubusercontent.com/u/45261195?v=4",
   "desc": "好看的网站~",
-  "siteurl": "https://aira.cafe/"
+  "siteurl": "https://aira.cafe/",
+  "tags": [
+    "Profile",
+    "Blog"
+  ]
 }
