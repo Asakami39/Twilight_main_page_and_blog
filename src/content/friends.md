@@ -1,18 +1,18 @@
 ---
 
-## How to Apply
+## 如何添加
 
-Please send your website information to: xxx@xxx.com
+请将您的网站信息发到这里: asakami39@163.com
 
-Email Subject:
+电邮题目：
 ```
-Request to Add Friend
+请求添加好友
 ```
 
-Email Content (Template):
+电邮内容（模板）：
 ```
-Site Name: [Your Site Name]
-Site Desc: [Your Site Description]
-Site Link: [Your Site Link]
-Avatar Link: [Your Avatar Link]
+网站名称：[您的网站名称]
+网站描述：[您的网站描述]
+网站链接：[您的网站链接]
+头像链接：[您的头像链接]
 ```
