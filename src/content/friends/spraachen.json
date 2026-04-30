@@ -1,7 +1,9 @@
 {
-    "title": "Spr_Aachen's Blog",
-    "imgurl": "https://blog.spr-aachen.com/assets/images/avatar.png",
-    "desc": "Spr_Aachen's Personal Blog",
-    "siteurl": "https://blog.spr-aachen.com",
-    "tags": ["Blog"]
+  "title": "Spr_Aachen的Blog",
+  "imgurl": "https://blog.spr-aachen.com/assets/images/avatar.png",
+  "desc": "Spr_Aachen的个人博客~这位朋友帮了我很多忙~",
+  "siteurl": "https://blog.spr-aachen.com",
+  "tags": [
+    "Blog"
+  ]
 }
