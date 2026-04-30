@@ -24,8 +24,6 @@ interface Props {
     side?: string;
 }
 const { class: className, style, side = "default" } = Astro.props;
-
-const currentPath = Astro.url.pathname;
 ---
 
 <WidgetLayout
@@ -37,13 +35,6 @@ const currentPath = Astro.url.pathname;
     style={style}
 >
     <div class="directory-container">
-        <!-- We use client:idle to load the Svelte component lazily since it's just a sidebar widget -->
-        <DirectoryTree client:idle tree={directoryTree} currentPath={currentPath} />
+        <DirectoryTree client:idle tree={directoryTree} />
     </div>
 </WidgetLayout>
-
-<style>
-    .directory-container {
-        padding-right: 0.5rem;
-    }
-</style>
