@@ -294,7 +294,7 @@ profile:
     # 信息配置
     name: "あさかみ"
     # 简介配置
-    bio: "Follow me please~"
+    bio: "关注我谢谢喵~"
     # 链接配置
     links:
         - # 链接1
@@ -332,9 +332,9 @@ profile:
 # 公告配置
 announcement:
     # 公告标题
-    title: "Announcement"
+    title: "公告"
     # 公告内容
-    content: "Welcome to my blog!"
+    content: "欢迎来到我的博客喵！"
     # 允许用户关闭公告
     closable: true
     # 链接配置
@@ -459,7 +459,7 @@ musicPlayer:
                 # 时长
                 duration: 146
     # 是否自动播放
-    autoplay: true
+    autoplay: false
 
 # 看板娘配置
 pio:
@@ -481,20 +481,21 @@ pio:
     # 对话框配置
     dialog:
         # 欢迎词
-        welcome: "Welcome!"
+        welcome: "欢迎喵！"
         # 触摸提示
         touch:
-            - "What are you doing?"
-            - "Stop touching me!"
-            - "Don't bully me like that!"
+            - "你在干什么喵？！"
+            - "憋戳我了喵！"
+            - "别这样欺负我喵！"
             - "(｡í _ ì｡)"
+            - "快去关注Asakami谢谢喵！"
         # 首页提示
-        home: "Click here to go back to homepage!"
+        home: "点击这里返回首页！"
         # 换装提示
         skin:
-            - "Want to see my new outfit?"
-            - "The new outfit looks great~"
+            - "想看看我的新衣服吗？"
+            - "这件新衣服真好看~"
         # 关闭提示
-        close: "See you next time~"
+        close: "下次再见喵~"
         # 关于链接
         link: "https://nav.kungal.org"
