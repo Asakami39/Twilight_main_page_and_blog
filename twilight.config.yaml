@@ -7,7 +7,7 @@ site:
     # 站点副标题
     subtitle: "未来へ、踏み出そう。"
     # 语言配置
-    lang: "zh"
+    lang: "zh_hant"
     # 翻译配置
     translate:
         # 启用翻译功能
@@ -187,7 +187,7 @@ navbar:
             "Archive"
         - # 一级导航链接 - 展览 (自定义)
             # 导航名称
-            name: "Exhibition"
+            name: "展示"
             # 导航链接
             url: "/exhibition/"
             # 导航图标
@@ -350,7 +350,19 @@ announcement:
 
 # 文章配置
 post:
-    # 显示“上次编辑”卡片
+    # 文章卡片配置
+    card:
+        # 封面
+        cover:
+            # 位置 ("left" | "right")
+            side: "right"
+            # 封面宽度
+            width: "33%"
+            # 封面上是否显示文字 (标题、标签、摘要)
+            showContent: true
+        # 标题大小 (Tailwind 文本大小类，例如 "text-3xl")
+        titleSize: "text-2xl"
+    # 显示"上次编辑"卡片
     showLastModified: true
     # 代码高亮配置
     expressiveCode:
